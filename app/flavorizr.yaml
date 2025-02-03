@@ -1,0 +1,67 @@
+# run using `flutter pub run flavorizr:main`
+flavors:
+  hi:
+    app:
+      name: "चित्र पहेली"
+    android:
+      applicationId: "com.mysthetic.picpun.hi"
+      resValues:
+        admob_appid:
+          type: "string"
+          value: "ca-app-pub-8410138769234735~6514219334"
+      icon: "./graphics/icon_ios_hi.png"
+      adaptiveIcon:
+        foreground: "./graphics/foreground_hi.png"
+        background: "./graphics/background_hi.png"
+    ios:
+      bundleId: "com.mysthetic.picpun.hi"
+      icon: "./graphics/icon_ios_hi.png"
+      variables:
+        ADMOB_APPID:
+          value: "ca-app-pub-8410138769234735~7356356275"
+        REVERSED_CLIENT_ID:
+          value: "com.googleusercontent.apps.175623611962-82s2hbtschkq1pf42ksdgeur3ithh3ip"
+        FLUTTER_TARGET:
+          value: "lib/main.dart"
+    macos:
+      bundleId: "com.mysthetic.picpun.hi"
+      variables:
+        ADMOB_APPID:
+          value: "ca-app-pub-8410138769234735~3219143369"
+        REVERSED_CLIENT_ID:
+          value: "com.googleusercontent.apps.175623611962-82s2hbtschkq1pf42ksdgeur3ithh3ip"
+        FLUTTER_TARGET:
+          value: "lib/main.dart"
+  en:
+    app:
+      name: "PicPun"
+    android:
+      applicationId: "com.mysthetic.picpun.en"
+      resValues:
+        admob_appid:
+          type: "string"
+          value: "ca-app-pub-8410138769234735~2823775396"
+      icon: "./graphics/icon_ios_en.png"
+      adaptiveIcon:
+        foreground: "./graphics/foreground_en.png"
+        background: "./graphics/background_en.png"
+    ios:
+      bundleId: "com.mysthetic.picpun.en"
+      icon: "./graphics/icon_ios_en.png"
+      variables:
+        ADMOB_APPID:
+          value: "ca-app-pub-8410138769234735~9824298012"
+        REVERSED_CLIENT_ID:
+          value: "com.googleusercontent.apps.175623611962-82s2hbtschkq1pf42ksdgeur3ithh3ip"
+        FLUTTER_TARGET:
+          value: "lib/main.dart"
+        
+    macos:
+      bundleId: "com.mysthetic.picpun.en"
+      variables:
+        ADMOB_APPID:
+          value: "ca-app-pub-8410138769234735~3219143369"
+        REVERSED_CLIENT_ID:
+          value: "com.googleusercontent.apps.175623611962-82s2hbtschkq1pf42ksdgeur3ithh3ip"
+        FLUTTER_TARGET:
+          value: "lib/main.dart"

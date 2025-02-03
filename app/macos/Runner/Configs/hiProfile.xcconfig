@@ -1,0 +1,9 @@
+#include "../../Flutter/hiProfile.xcconfig"
+#include "Warnings.xcconfig"
+
+FLUTTER_TARGET=lib/main.dart
+ASSET_PREFIX=hi
+BUNDLE_NAME=चित्र पहेली
+BUNDLE_DISPLAY_NAME=चित्र पहेली
+ADMOB_APPID=ca-app-pub-8410138769234735~3219143369
+REVERSED_CLIENT_ID=com.googleusercontent.apps.175623611962-82s2hbtschkq1pf42ksdgeur3ithh3ip

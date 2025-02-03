@@ -1,0 +1,68 @@
+name: picpun
+description: A game of puns and puzzles.
+publish_to: 'none'
+
+version: 1.0.165+165
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.0.0
+  go_router: ^14.0.0
+  logging: ^1.2.0
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  auto_size_text_plus: ^3.0.2
+  mesh_gradient: ^1.3.8
+  flutter_neumorphic_plus: ^3.4.0
+  ripple_wave: ^0.1.4
+  colorgram: ^2.0.0
+  tinycolor2: ^3.0.1
+  # in_app_review:
+  logger:
+  # in_app_purchase:
+  google_mobile_ads: ^5.2.0
+  animated_flip_counter:
+  package_info_plus:
+  easy_localization:
+  easy_localization_loader:
+  animate_do:
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_flavorizr:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/music/
+    - assets/sfx/
+    - assets/icons/
+    - assets/levels/hi/
+    - assets/levels/en/
+    - assets/translations/hi/
+    - assets/translations/en/
+    # - path: assets/levels/hi/
+    #   flavors:
+    #     - hi
+    # - path: assets/levels/en/
+    #   flavors:
+    #     - en
+    # - path: assets/translations/hi/
+    #   flavors:
+    #     - hi
+    # - path: assets/translations/en/
+    #   flavors:
+    #     - en        
+
+  fonts:
+    - family: Baloo 2
+      fonts:
+        - asset: assets/fonts/Baloo2.ttf

@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "pixel (hi)",
+            "request": "launch",
+            "type": "dart",                 
+            "deviceId": "pixel",       
+            "args": [
+                "--flavor",
+                "hi"
+            ]
+        },           
+        {
+            "name": "pixel (en)",
+            "request": "launch",
+            "type": "dart",                 
+            "deviceId": "pixel",       
+            "args": [
+                "--flavor",
+                "en"
+            ]
+        },              {
+            "name": "macos(en)",
+            "request": "launch",
+            "type": "dart",                 
+            "deviceId": "macos",       
+            "args": [
+                "--flavor",
+                "en"
+            ]
+        },          {
+            "name": "macos(hi)",
+            "request": "launch",
+            "type": "dart",                 
+            "deviceId": "macos",       
+            "args": [
+                "--flavor",
+                "hi"
+            ]
+        }
+  
+    ]
+}
